@@ -1,8 +1,8 @@
 {
-  "name": "bitwasp/bitcoin",
+  "name": "itinance/bitcoin-php-fork",
   "description": "PHP Bitcoin library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
   "type": "library",
-  "homepage": "https://github.com/bit-wasp/bitcoin-php",
+  "homepage": "https://github.com/itinance/bitcoin-php-fork",
   "license": "Unlicense",
   "authors": [
     {
@@ -29,7 +29,8 @@
     "lastguest/murmurhash": "^2.1",
     "mdanter/ecc": "^0.5.0|^1.0.0",
     "bitwasp/buffertools": "^0.5.0",
-    "bitwasp/bech32": "^0.0.1"
+    "bitwasp/bech32": "^0.0.1",
+    "phpunit/phpunit": "^9.5"
   },
   "suggest": {
     "ext-secp256k1": "The secp256k1 library for fast and safe elliptic curve operations",
